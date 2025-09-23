@@ -1,12 +1,14 @@
-<h1 align="center">No Loss, No Gain: Gated Refinement and Adaptive Compression for Prompt Optimization</h1>
+<div align="center">
+  <h1>No Loss, No Gain: Gated Refinement and Adaptive Compression for Prompt Optimization</h1>
+  <h2><b>NIPS 2025</b></h2>
+  <p>
+    <a href="https://arxiv.org/abs/ARXIV_ID" target="_blank">
+      <img src="https://img.shields.io/badge/Paper%20ArXiv-GRACE-b31b1b.svg" alt="Paper ArXiv: GRACE">
+    </a>
+  </p>
+</div>
 
-<h2 align="center"><b>NIPS 2025</b></h2>
-
-<p align="center">
-  <a href="https://arxiv.org/abs/ARXIV_ID" target="_blank">
-    <img src="https://img.shields.io/badge/Paper%20ArXiv-GRACE-b31b1b.svg" alt="Paper ArXiv: GRACE">
-  </a>
-</p>
+<hr/>
 
 ## Introduction
 
