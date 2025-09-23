@@ -1,7 +1,7 @@
 <div align="center">
   <h1>
     No Loss, No Gain: Gated Refinement and Adaptive Compression for Prompt Optimization
-    <br>
+    <br><br>
     <b>NIPS 2025</b>
     <br><br>
     <a href="https://arxiv.org/abs/ARXIV_ID" target="_blank">
@@ -10,7 +10,6 @@
   </h1>
 </div>
 
-<hr/>
 
 ## Introduction
 
