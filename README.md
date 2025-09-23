@@ -1,9 +1,14 @@
-# No Loss, No Gain: Gated Refinement and Adaptive Compression for Prompt Optimization
+<h1 align="center">No Loss, No Gain: Gated Refinement and Adaptive Compression for Prompt Optimization</h1>
 
-Code and Data for the NIPS2025 paper *No Loss, No Gain: Gated Refinement and Adaptive Compression for Prompt Optimization*.
+<p align="center"><b>NIPS 2025</b></p>
 
-## GRACE
-This is the official repo for "No Loss, No Gain: Gated Refinement and Adaptive Compression for Prompt Optimization".
+<p align="center">
+  <a href="https://arxiv.org/abs/ARXIV_ID" target="_blank">
+    <img src="https://img.shields.io/badge/Paper%20ArXiv-GRACE-b31b1b.svg" alt="Paper ArXiv: GRACE">
+  </a>
+</p>
+
+
 <p align="center">
 <img src="./images/method.png" alt="Method Comparison" width="700" title="Method Comparison"/>
 </p>
