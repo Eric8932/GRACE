@@ -1,0 +1,11 @@
+tqdm
+fire
+numpy
+scipy
+datasets
+openai
+torch
+pytz
+matplotlib
+ctranslate2
+# vllm

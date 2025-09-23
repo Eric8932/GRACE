@@ -1,0 +1,44 @@
+# basic settings
+task_name: med_qa # bigbench | ncbi | ... | or your own task
+search_algo: grace
+print_log: true
+log_dir: ./logs/base-ds_opt-ds/
+
+# your initial prompt
+init_prompt: |
+  Please use your domain knowledge in medical area to solve the questions.
+
+task_setting:
+  train_size: 200 #1000 500
+  eval_size: 100 # data split for reward calculation
+  test_size: 400 # if test_size is not 0, the optimized nodes will be tested at last.
+  seed: 42 # if need to fixed shuffled dataset
+  data_dir: None # if data is downloaded
+  # Note: the current supported bigbench tasks are specified by 
+  # data_dir using the same task_name (bigbench), if there is not
+  # specific .py class inplemented in the tasks folder.
+  post_instruction: false # false: prompt + task question | true: task question + prompt
+
+base_model_setting:
+  model_type: openai # openai 
+  model_name: deepseek-chat # api-based model'name or huggingface model name
+  temperature: 0.0
+  api_key: null # if need api key
+  base_model: true
+
+optim_model_setting:
+  model_type: openai # openai 
+  model_name: deepseek-reasoner 
+  temperature: 0.6
+  api_key: null  # if need api key
+  base_model: false
+
+
+world_model_setting:
+  iteration_num: 80
+  stop_early_thresh: 5
+  num_correct_sample: 3
+  num_wrong_sample: 3
+  num_new_prompts: 1 
+  train_shuffle: true
+  
