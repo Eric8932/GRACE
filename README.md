@@ -8,11 +8,13 @@
   </a>
 </p>
 
+## Introduction
+
+Unlike other methods that generate a large number of candidate updates in each iteration to ensure prompt improvement—often at the cost of efficiency, our GRACE method performs more targeted and effective prompt updates. Additionally, when optimization stagnates, GRACE activates adaptive compression to help escape local optima.
 
 <p align="center">
 <img src="./images/method.png" alt="Method Comparison" width="700" title="Method Comparison"/>
 </p>
-Unlike other methods that generate a large number of candidate updates in each iteration to ensure prompt improvement—often at the cost of efficiency, GRACE performs more targeted and effective prompt updates. Additionally, when optimization stagnates, GRACE activates adaptive compression to help escape local optima.
 
 ## Data
 In the **datasets** folder, we provide the data for 5 challenging BBH tasks. All other datasets can be downloaded from HuggingFace.
