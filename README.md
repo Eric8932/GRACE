@@ -1,12 +1,13 @@
 <div align="center">
-  <h1>No Loss, No Gain: Gated Refinement and Adaptive Compression for Prompt Optimization</h1>
-  <p>
+  <h1>
+    No Loss, No Gain: Gated Refinement and Adaptive Compression for Prompt Optimization
+    <br>
     <b>NIPS 2025</b>
     <br><br>
     <a href="https://arxiv.org/abs/ARXIV_ID" target="_blank">
       <img src="https://img.shields.io/badge/Paper%20ArXiv-GRACE-b31b1b.svg" alt="Paper ArXiv: GRACE">
     </a>
-  </p>
+  </h1>
 </div>
 
 <hr/>
